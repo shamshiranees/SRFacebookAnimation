@@ -7,7 +7,7 @@
 
 
 ## ScreenShot
-![ScreenShot](https://raw.githubusercontent.com/shamshiranees/SRFacebookAnimation/master/Example/SRFacebookAnimation/screenShot.png)
+![ScreenShot](https://raw.githubusercontent.com/shamshiranees/SRFacebookAnimation/master/Example/SRFacebookAnimation/screenShot1.png)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
