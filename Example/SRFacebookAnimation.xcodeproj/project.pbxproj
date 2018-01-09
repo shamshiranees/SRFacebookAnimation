@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		515610A52004EE3D0078458E /* screenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 515610A42004EE3D0078458E /* screenShot.png */; };
+		515610A72004F00C0078458E /* screenShot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 515610A62004F00C0078458E /* screenShot1.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		052A96E2FFF3C21FB5FDCBE3 /* Pods-SRFacebookAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRFacebookAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRFacebookAnimation_Tests/Pods-SRFacebookAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B6FFC18AACA716185417F54 /* SRFacebookAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SRFacebookAnimation.podspec; path = ../SRFacebookAnimation.podspec; sourceTree = "<group>"; };
-		515610A42004EE3D0078458E /* screenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot.png; sourceTree = "<group>"; };
+		515610A62004F00C0078458E /* screenShot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot1.png; sourceTree = "<group>"; };
 		56DA9BED98C65C6BCD2DFE90 /* Pods_SRFacebookAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRFacebookAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		581D2D062DE2C861C59CCA0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6036971DAEE27173541F1A98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				515610A42004EE3D0078458E /* screenShot.png */,
+				515610A62004F00C0078458E /* screenShot1.png */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -252,9 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				515610A72004F00C0078458E /* screenShot1.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				515610A52004EE3D0078458E /* screenShot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
