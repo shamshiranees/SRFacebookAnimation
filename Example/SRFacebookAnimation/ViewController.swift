@@ -17,37 +17,38 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        
     }
     
     
     @IBAction func a(_ sender: UIButton) {
-        for _ in 0...10{
-            SRFacebookAnimation.startPoint(CGPoint(x: 0, y: 280))
-            SRFacebookAnimation.isUptrust(false)
-            SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "6"))
+        for _ in 0...2{
+        SRFacebookAnimation.startPoint(CGPoint(x: 0, y: 280))
+        SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "6"))
             SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "5"))
-            
+           
         }
     }
     
     @IBAction func b(_ sender: Any) {
         for _ in 0...10{
-//            SRFacebookAnimation.isUptrust(true)
-//            SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "5"))
-//            SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "4"))
+            SRFacebookAnimation.isUptrust(true)
+            SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "5"))
+             SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "4"))
         }
     }
     @IBAction func c(_ sender: Any) {
-       // SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "4"))
+        SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "4"))
     }
     @IBAction func d(_ sender: Any) {
-       // SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "3"))
+        SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "3"))
     }
     @IBAction func e(_ sender: Any) {
-       // SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "2"))
+        SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "2"))
     }
     @IBAction func f(_ sender: Any) {
-       // SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "1"))
+        SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "1"))
     }
     
     

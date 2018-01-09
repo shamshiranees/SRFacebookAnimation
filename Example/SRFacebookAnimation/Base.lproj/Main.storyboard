@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zjW-AK-19i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KfZ-ch-gi1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Live-->
         <scene sceneID="roa-rw-b2H">
             <objects>
-                <viewController id="JlK-HA-8ch" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="JlK-HA-8ch" customClass="ViewController" customModule="SRFacebookAnimation_Example" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bLU-af-yB5"/>
                         <viewControllerLayoutGuide type="bottom" id="9s5-rC-NNi"/>
@@ -40,42 +40,42 @@
                                         <rect key="frame" x="0.0" y="0.0" width="48.5" height="50"/>
                                         <state key="normal" image="6"/>
                                         <connections>
-                                            <action selector="a:" destination="JlK-HA-8ch" eventType="touchUpInside" id="RZM-32-jwZ"/>
+                                            <action selector="a:" destination="JlK-HA-8ch" eventType="touchUpInside" id="Mly-YN-18F"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Og-Wy-4Sl">
                                         <rect key="frame" x="63.5" y="0.0" width="48" height="50"/>
                                         <state key="normal" image="5"/>
                                         <connections>
-                                            <action selector="b:" destination="JlK-HA-8ch" eventType="touchUpInside" id="0bH-x1-yYh"/>
+                                            <action selector="b:" destination="JlK-HA-8ch" eventType="touchUpInside" id="Pmo-ae-WtB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqO-bZ-JLW">
                                         <rect key="frame" x="126.5" y="0.0" width="48.5" height="50"/>
                                         <state key="normal" image="4"/>
                                         <connections>
-                                            <action selector="c:" destination="JlK-HA-8ch" eventType="touchUpInside" id="lXG-Jj-S03"/>
+                                            <action selector="c:" destination="JlK-HA-8ch" eventType="touchUpInside" id="4Je-ZV-kv7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vek-Iy-DgO">
                                         <rect key="frame" x="190" y="0.0" width="48.5" height="50"/>
                                         <state key="normal" title="Button" image="3"/>
                                         <connections>
-                                            <action selector="d:" destination="JlK-HA-8ch" eventType="touchUpInside" id="Jqa-s1-4f3"/>
+                                            <action selector="d:" destination="JlK-HA-8ch" eventType="touchUpInside" id="FO9-V8-voT"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88K-53-Aij">
                                         <rect key="frame" x="253.5" y="0.0" width="48" height="50"/>
                                         <state key="normal" image="2"/>
                                         <connections>
-                                            <action selector="e:" destination="JlK-HA-8ch" eventType="touchUpInside" id="CRd-dG-T9B"/>
+                                            <action selector="e:" destination="JlK-HA-8ch" eventType="touchUpInside" id="2os-sv-78K"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSi-Sj-jvo">
                                         <rect key="frame" x="316.5" y="0.0" width="48.5" height="50"/>
                                         <state key="normal" title="Button" image="1"/>
                                         <connections>
-                                            <action selector="f:" destination="JlK-HA-8ch" eventType="touchUpInside" id="w3y-PX-x8M"/>
+                                            <action selector="f:" destination="JlK-HA-8ch" eventType="touchUpInside" id="Mke-Ug-Ivd"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -130,34 +130,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A0F-Au-nTR" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="577" y="212"/>
+            <point key="canvasLocation" x="1350" y="211"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Xxy-9Y-z4Q">
+        <scene sceneID="3G6-J8-drb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zjW-AK-19i" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KfZ-ch-gi1" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aMK-D5-jA0">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xdL-Ug-tG4">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.25551962849999998" green="0.55353504419999999" blue="0.95840793849999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <color key="textShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </textAttributes>
-                        <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <color key="textShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="JlK-HA-8ch" kind="relationship" relationship="rootViewController" id="6S6-ke-1sb"/>
+                        <segue destination="JlK-HA-8ch" kind="relationship" relationship="rootViewController" id="cUD-MC-r8Z"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u0S-KU-Ra4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yBs-o7-KTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-199" y="220"/>
+            <point key="canvasLocation" x="576" y="211.39430284857573"/>
         </scene>
     </scenes>
     <resources>

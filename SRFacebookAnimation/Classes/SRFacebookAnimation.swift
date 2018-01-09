@@ -8,18 +8,18 @@
 
 import UIKit
 
-public enum animationDirection {
+public enum animationDirections {
     case rightToLeft
     case leftToRight
 }
-open class SRFacebookAnimation: NSObject, CAAnimationDelegate {
+public class SRFacebookAnimation: NSObject, CAAnimationDelegate {
     
     
     var startPoint = CGPoint(x: 0, y: 200)
     var amplitude : CGFloat = 50
     var animationImage = UIImage()
     var imageDimention : Double = 20.0
-    var direction = animationDirection.leftToRight
+    var direction = animationDirections.leftToRight
     var animationDuration : Double = 5
     var amplitudeBounce : CGFloat = 5
     var isUptrust : Bool = true
@@ -179,7 +179,7 @@ open class SRFacebookAnimation: NSObject, CAAnimationDelegate {
         self.shared.animationImage = image
     }
     
-    public static func animationDirection(_ direction:animationDirection) {
+    public static func animationDirection(_ direction:animationDirections) {
         self.shared.direction = direction
     }
     
