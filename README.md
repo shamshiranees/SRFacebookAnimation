@@ -1,6 +1,6 @@
 # SRFacebookAnimation
 
-[![CI Status](http://img.shields.io/travis/smzranz@gmail.com/SRFacebookAnimation.svg?style=flat)](https://travis-ci.org/smzranz@gmail.com/SRFacebookAnimation)
+[![CI Status](http://img.shields.io/travis/shamshiranees/SRFacebookAnimation.svg?style=flat)](https://travis-ci.org/shamshiranees/SRFacebookAnimation)
 [![Version](https://img.shields.io/cocoapods/v/SRFacebookAnimation.svg?style=flat)](http://cocoapods.org/pods/SRFacebookAnimation)
 [![License](https://img.shields.io/cocoapods/l/SRFacebookAnimation.svg?style=flat)](http://cocoapods.org/pods/SRFacebookAnimation)
 [![Platform](https://img.shields.io/cocoapods/p/SRFacebookAnimation.svg?style=flat)](http://cocoapods.org/pods/SRFacebookAnimation)
@@ -21,8 +21,7 @@ pod 'SRFacebookAnimation'
 ```
 
 ## Author
-
-smzranz@gmail.com, shamshir.anees@citrusinformatics.com
+ shamshir.anees@gmail.com
 
 ## License
 
