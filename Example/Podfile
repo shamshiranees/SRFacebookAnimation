@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SRFacebookAnimation_Example' do
+  pod 'SRFacebookAnimation', :path => '../'
+
+  target 'SRFacebookAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
