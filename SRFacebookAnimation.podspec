@@ -18,7 +18,39 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Facebook live streaming emoji animation which can be fully customised.
+Basic Usage
+```swift
+SRFacebookAnimation.startPoint(CGPoint(x: 0, y: 300))//this is optional default location is (x: 0, y: 200)
+
+//Pass the Image.
+//This method should be called for animating.
+SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "6"))
+```
+More Features
+```swift
+
+// Amplitude of the path. Default value is 50
+SRFacebookAnimation.animationAmplitude(5)
+
+// Bouncing needed more than the amplitude , Default value is 5.
+SRFacebookAnimation.amplitudeBounce(5)
+
+// duration of the animation
+SRFacebookAnimation.animationDuration(5)
+
+//Direction of the animation.Default value is leftToRight.
+//rightToLeft or leftToRight.
+SRFacebookAnimation.animationDirection(.rightToLeft)
+
+//Uptrust true means first it will animate to +ve direction.Default value is true.
+SRFacebookAnimation.isUptrust(false)
+
+//Can change the demention of imageview.Default value is 20.
+SRFacebookAnimation.imageDimention(30)//30 means you will get an imageView of demention 30x30
+
+
+```
                        DESC
 
   s.homepage         = 'https://github.com/shamshiranees/SRFacebookAnimation'
