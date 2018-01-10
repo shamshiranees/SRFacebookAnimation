@@ -36,7 +36,8 @@ import SRFacebookAnimation
 ```swift
 SRFacebookAnimation.startPoint(CGPoint(x: 0, y: 300))//this is optional default location is (x: 0, y: 200)
 
-//Pass the animateImage.
+//Pass the Image.
+//This method should be called for animating.
 SRFacebookAnimation.animate(image:#imageLiteral(resourceName: "6"))
 ```
 ###  More Features

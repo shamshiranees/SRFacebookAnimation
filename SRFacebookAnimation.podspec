@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SRFacebookAnimation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SRFacebookAnimation.'
+  s.summary          = 'Facebook live streaming emoji animation which can be fully customised'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
