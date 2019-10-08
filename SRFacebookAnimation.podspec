@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SRFacebookAnimation'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Facebook live streaming emoji animation which can be fully customised'
 
 # This description is used to generate tags and improve search results.
@@ -60,7 +60,7 @@ SRFacebookAnimation.imageDimention(30)//30 means you will get an imageView of de
   s.source           = { :git => 'https://github.com/shamshiranees/SRFacebookAnimation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'SRFacebookAnimation/Classes/**/*'
   

@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		052A96E2FFF3C21FB5FDCBE3 /* Pods-SRFacebookAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRFacebookAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRFacebookAnimation_Tests/Pods-SRFacebookAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B6FFC18AACA716185417F54 /* SRFacebookAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SRFacebookAnimation.podspec; path = ../SRFacebookAnimation.podspec; sourceTree = "<group>"; };
+		4B6FFC18AACA716185417F54 /* SRFacebookAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SRFacebookAnimation.podspec; path = ../SRFacebookAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		515610A82004F1760078458E /* screenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot2.png; sourceTree = "<group>"; };
 		56DA9BED98C65C6BCD2DFE90 /* Pods_SRFacebookAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRFacebookAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		581D2D062DE2C861C59CCA0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -174,7 +174,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				3F7986FD635B672BFAB1CD86 /* [CP] Embed Pods Frameworks */,
-				B20AC38C29684435874E4BB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +192,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				3CBD060B9F421E758458FFC8 /* [CP] Embed Pods Frameworks */,
-				53F11EFF943C89CA60AEB425 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -286,28 +284,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3CBD060B9F421E758458FFC8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRFacebookAnimation_Tests/Pods-SRFacebookAnimation_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3F7986FD635B672BFAB1CD86 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SRFacebookAnimation_Example/Pods-SRFacebookAnimation_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SRFacebookAnimation_Example/Pods-SRFacebookAnimation_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SRFacebookAnimation/SRFacebookAnimation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -316,22 +299,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRFacebookAnimation_Example/Pods-SRFacebookAnimation_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53F11EFF943C89CA60AEB425 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRFacebookAnimation_Tests/Pods-SRFacebookAnimation_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SRFacebookAnimation_Example/Pods-SRFacebookAnimation_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B0805E4DEE0CACA9F6024131 /* [CP] Check Pods Manifest.lock */ = {
@@ -350,21 +318,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B20AC38C29684435874E4BB9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRFacebookAnimation_Example/Pods-SRFacebookAnimation_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

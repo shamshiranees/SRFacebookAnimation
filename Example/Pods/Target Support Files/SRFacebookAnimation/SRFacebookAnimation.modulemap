@@ -1,0 +1,6 @@
+framework module SRFacebookAnimation {
+  umbrella header "SRFacebookAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

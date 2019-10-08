@@ -14,8 +14,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-Swift 3.0+ <br>
-Xcode 8.0+ <br>
+Swift 5.0 <br>
+Xcode 11.0 <br>
 
 ## Installation
 
