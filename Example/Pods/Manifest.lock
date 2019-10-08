@@ -1,5 +1,5 @@
 PODS:
-  - SRFacebookAnimation (0.1.0)
+  - SRFacebookAnimation (1.0.1)
 
 DEPENDENCIES:
   - SRFacebookAnimation (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SRFacebookAnimation: c8f511b0ac0df8d8de0768889f7ca66a79b65eaa
+  SRFacebookAnimation: 426db98bc6e503e39f6782c239eaf5b5e939c4d3
 
 PODFILE CHECKSUM: 7e9e9d09c2cc55312bf40c463a8fdcb521484db2
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.3

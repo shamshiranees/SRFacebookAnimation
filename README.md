@@ -19,13 +19,7 @@ Xcode 11.0 <br>
 
 ## Installation
 
-SRFacebookAnimation is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'SRFacebookAnimation'
-```
-or add [SAFacebookAnimation.swift](https://github.com/shamshiranees/SRFacebookAnimation/blob/master/SRFacebookAnimation/Classes/SRFacebookAnimation.swift) file into your project directory.
+ add [SAFacebookAnimation.swift](https://github.com/shamshiranees/SRFacebookAnimation/blob/master/SRFacebookAnimation/Classes/SRFacebookAnimation.swift) file into your project directory.
 
 ## Usage
 ```swift
